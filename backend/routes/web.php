@@ -20,7 +20,7 @@
 //});
 
 // dd(App\Http\Controllers\TaskController::class);
-Route::get('/','TaskController@index');
+Route::get('/','PageController@index');
 Route::resource('task',TaskController::class);
 Route::resource('group',GroupController::class);
 // Route::resource('task', App\Http\Controllers\TaskController::class);
